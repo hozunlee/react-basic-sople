@@ -6,6 +6,7 @@ import Ref from "./ch07/Ref";
 import Accommodate from "./ch07/Accommodate";
 import Debounce from "./ch07/test/Debounce";
 import Apple from "./ch07/test/apple";
+import AttendanceBook from "./ch10/AttendanceBook";
 
 import LandingPage from "./ch09/LandingPage";
 
@@ -17,6 +18,7 @@ function App() {
             <Accommodate /> */}
             {/* <Debounce /> */}
             {/* <CommentList /> */}
+            <AttendanceBook />
             <LandingPage />
             <Apple />
         </div>
