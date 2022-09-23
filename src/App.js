@@ -10,6 +10,10 @@ import AttendanceBook from "./ch10/AttendanceBook";
 
 import LandingPage from "./ch09/LandingPage";
 
+import Signup from "./ch11/Signup";
+
+import Cal from "./ch12/Cal";
+
 function App() {
     return (
         <div className="App">
@@ -18,9 +22,11 @@ function App() {
             <Accommodate /> */}
             {/* <Debounce /> */}
             {/* <CommentList /> */}
-            <AttendanceBook />
+            {/* <AttendanceBook />
             <LandingPage />
-            <Apple />
+            <Apple /> */}
+            {/* <Signup /> */}
+            <Cal />
         </div>
     );
 }
