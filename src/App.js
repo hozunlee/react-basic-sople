@@ -13,6 +13,7 @@ import LandingPage from "./ch09/LandingPage";
 import Signup from "./ch11/Signup";
 
 import Cal from "./ch12/Cal";
+import DarkOrLight from "./ch14/DarkOrLight";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
             <Apple /> */}
             {/* <Signup /> */}
             <Cal />
+            <DarkOrLight />
         </div>
     );
 }
