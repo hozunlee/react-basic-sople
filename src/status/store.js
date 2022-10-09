@@ -23,6 +23,13 @@ const useStore = create(
             // count 초기화
             set((state) => ({ count: 0 }));
         },
+
+        sopleData: [],
+
+        setSopleData: (input) => {
+            // 입력받은 input만큼 count 설정
+            set({ sopleData: input });
+        },
     }))
 );
 
